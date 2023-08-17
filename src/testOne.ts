@@ -1,3 +1,7 @@
+import dataSetOne from "data/one";
+import dataSetTwo from "data/two";
+import dataSetThree from "data/three";
+
 export const displayStringList = (stringList) => {
   /*
         Write a function to take a list of strings
@@ -15,3 +19,7 @@ export const displayStringList = (stringList) => {
         --> three
     */
 };
+
+displayStringList(dataSetOne);
+displayStringList(dataSetTwo);
+displayStringList(dataSetThree);
