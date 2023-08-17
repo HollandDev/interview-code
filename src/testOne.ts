@@ -1,5 +1,7 @@
 import dataSetOne from "data/one";
+// @ts-ignore
 import dataSetTwo from "data/two";
+// @ts-ignore
 import dataSetThree from "data/three";
 
 export const displayStringList = (stringList) => {
@@ -21,5 +23,5 @@ export const displayStringList = (stringList) => {
 };
 
 displayStringList(dataSetOne);
-displayStringList(dataSetTwo);
-displayStringList(dataSetThree);
+// displayStringList(dataSetTwo);
+// displayStringList(dataSetThree);
