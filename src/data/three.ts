@@ -1,8 +1,13 @@
 export default [
   "one",
+  1,
   "",
   "",
   "two",
+  2,
+  3,
+  4,
+  5,
   [
     "",
     "three",
@@ -23,6 +28,11 @@ export default [
   "ten",
   "       ",
   "       ",
+  0.18,
+  0x100,
+  (x: number, y: number) => {
+    return x + y;
+  },
   [
     [
       [
