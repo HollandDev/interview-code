@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "lib": ["es6", "es2020", "esnext", "dom"],
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "target": "ES2021",
+    "baseUrl": "./src",
+    "paths": {
+      "@digibuild/*": ["lib/digibuild-lib/*"]
+    },
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"],
+  "typeRoots": ["node_modules/@types"]
+}

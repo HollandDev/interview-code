@@ -1,0 +1,14 @@
+{
+  "name": "InterviewCode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dylan Holland <dylaneholland@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "run-with-paths": "yarn ts-node -O '{\"module\": \"commonjs\"}'"
+  }
+}

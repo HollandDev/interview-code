@@ -9,5 +9,11 @@ interface TreeNode {
     Implement a function that finds the common ancestor of both nodes or returns false
     if they do not share an ancestor.
 */
+export const getCommonAncestor = (
+  nodeOne: TreeNode,
+  nodeTwo: TreeNode
+): TreeNode | false => {
+  /* write code here */
 
-export const getCommonAncestor = (nodeOne: TreeNode, nodeTwo: TreeNode) => {};
+  return false;
+};

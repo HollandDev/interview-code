@@ -1,10 +1,10 @@
-import dataSetOne from "data/one";
+import dataSetOne from "./data/one";
 // @ts-ignore
-import dataSetTwo from "data/two";
+import dataSetTwo from "./data/two";
 // @ts-ignore
-import dataSetThree from "data/three";
+import dataSetThree from "./data/three";
 
-export const displayStringList = (stringList) => {
+export const displayStringList = (stringList: any) => {
   /*
         Write a function to take a list of strings
         e.g. ['one', 'two', 'three']
