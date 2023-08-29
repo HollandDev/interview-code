@@ -18,4 +18,6 @@ def display_string_list(str_list):
     """
     pass
 
-print(data_set_one)
+display_string_list(data_set_one)
+display_string_list(data_set_two)
+display_string_list(data_set_three)
