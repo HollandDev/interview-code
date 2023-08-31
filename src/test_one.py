@@ -19,5 +19,5 @@ def display_string_list(str_list):
     pass
 
 display_string_list(data_set_one)
-display_string_list(data_set_two)
-display_string_list(data_set_three)
+# display_string_list(data_set_two)
+# display_string_list(data_set_three)
