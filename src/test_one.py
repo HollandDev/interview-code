@@ -1,4 +1,3 @@
-
 from data.dataset import data_set_one, data_set_two, data_set_three
 def display_string_list(str_list):
     """
@@ -16,6 +15,8 @@ def display_string_list(str_list):
         -> two
         --> three
     """
+    
+    # Write code here
     pass
 
 display_string_list(data_set_one)
