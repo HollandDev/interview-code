@@ -5,5 +5,5 @@ export default [
   "",
   "",
   ["three", "", "four"],
-  ["five", ["six", ["seven"]]],
+  ["five", ["six"]],
 ];
