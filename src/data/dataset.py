@@ -1,5 +1,13 @@
 data_set_one = ["one", "two", ["three", "four"], "five"]
-data_set_two = ["one", "", "two", "", "", ["three", "", "four"]]
+data_set_two = [
+  "one",
+  "",
+  "two",
+  "",
+  "",
+  ["three", "", "four"],
+  ["five", ["six", ["seven"]]],
+]
 data_set_three = [
   "one",
   1,
