@@ -9,6 +9,8 @@
     "typescript": "^5.1.6"
   },
   "scripts": {
-    "run-with-paths": "yarn ts-node -O '{\"module\": \"commonjs\"}'"
+    "run-with-paths": "yarn ts-node -O '{\"module\": \"commonjs\"}'",
+    "testOne": "ts-node src/testOne.ts",
+    "testTwo": "ts-node src/testTwo.ts"
   }
 }

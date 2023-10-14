@@ -1,1 +1,9 @@
-export default ["one", "", "two", "", "", ["three", "", "four"]];
+export default [
+  "one",
+  "",
+  "two",
+  "",
+  "",
+  ["three", "", "four"],
+  ["five", ["six"]],
+];

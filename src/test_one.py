@@ -1,11 +1,6 @@
-import dataSetOne from "./data/one";
-// @ts-ignore
-import dataSetTwo from "./data/two";
-// @ts-ignore
-import dataSetThree from "./data/three";
-
-export const displayStringList = (stringList: any, depth = 1) => {
-  /*
+from data.dataset import data_set_one, data_set_two, data_set_three
+def display_string_list(str_list):
+    """
         Write a recursive function to take a list of strings
         and display it line per line with -> next to it
         e.g.
@@ -28,9 +23,11 @@ export const displayStringList = (stringList: any, depth = 1) => {
         --> three
         --> four
         ---> five
-    */
-};
+    """
+    
+    # Write code here
+    pass
 
-displayStringList(dataSetOne);
-// displayStringList(dataSetTwo);
-// displayStringList(dataSetThree);
+display_string_list(data_set_one)
+# display_string_list(data_set_two)
+# display_string_list(data_set_three)
