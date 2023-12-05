@@ -1,5 +1,5 @@
 from data.dataset import data_set_one, data_set_two, data_set_three
-def display_string_list(str_list):
+def display_string_list(str_list, depth = 1):
     """
         Write a recursive function to take a list of strings
         and display it line per line with -> next to it
@@ -26,7 +26,11 @@ def display_string_list(str_list):
     """
     
     # Write code here
-    pass
+    for node in str_list:
+        if(type(node) == list):
+            display_string_list(node, depth + 1)
+        else:
+            print(f"{'-'*depth}> {node}")
 
 display_string_list(data_set_one)
 # display_string_list(data_set_two)
