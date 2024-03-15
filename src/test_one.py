@@ -26,11 +26,7 @@ def display_string_list(str_list, depth = 1):
     """
     
     # Write code here
-    for node in str_list:
-        if(type(node) == list):
-            display_string_list(node, depth + 1)
-        else:
-            print(f"{'-'*depth}> {node}")
+    
 
 display_string_list(data_set_one)
 # display_string_list(data_set_two)
