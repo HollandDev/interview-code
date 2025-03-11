@@ -1,4 +1,4 @@
-# DigiBuild Coding Interview
+# Technical Interview
 
 This is a simple repo used in DigiBuild Engineering interviews.
 
